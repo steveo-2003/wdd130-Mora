@@ -2,7 +2,7 @@
 
 nav {
     display: grid;
-    grid-column: repeat(5,1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-template-rows: 1fr;
     gap: 10px;
     background-color: #C1292E;
@@ -37,7 +37,7 @@ nav {
 .hero {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 1fr, 50px;
+    grid-template-rows: 1fr 50px;
 }
 
 #hero_image {
