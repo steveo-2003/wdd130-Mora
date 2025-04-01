@@ -1,16 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Sriracha&display=swap');
+
 nav {
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: 1fr;
     gap: 10px;
-    background-color: #C1292E;
+    background-color: #b6d369;
     color: #415D43;
+    font-family: "Sriracha";
 }
 
 #wrap {
     width: 1000px;
     margin: auto;
-    background-color: #b6d369;
+    background-color: #9BD1E5;
+    font-family: "Delius", 'Times New Roman', sans-serif;
 }
 
 .logo {
@@ -68,7 +73,7 @@ nav {
 
 #footer {
     height: 100px;
-    background-color: #C1292E;
+    background-color: #b6d369;
     display: grid;
     grid-template-columns: repeat(5,1fr);
 }
