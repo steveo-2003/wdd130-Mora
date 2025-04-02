@@ -1,18 +1,49 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Sriracha&display=swap');
 
-nav {
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: 1fr;
-    gap: 10px;
+body {
+    background-color: #415D43;
+}
+
+header {
     background-color: #b6d369;
-    color: #415D43;
-    font-family: "Sriracha";
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Delius", 'Times New Roman', sans-serif;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.header-title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 #wrap {
-    width: 1000px;
+    width: 1200px;
     margin: auto;
     background-color: #9BD1E5;
     font-family: "Delius", 'Times New Roman', sans-serif;
